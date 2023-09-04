@@ -1,0 +1,7 @@
+select sum(Weekday) as weekdaycount,sum(Weekend) as weekendcount from
+(select * , 
+case when DATEPART(dw,submitdate) <5 then 1
+    else 0 end as Weekday ,
+case when DATEPART(dw,submitdate) >5 then 1
+    else 0 end as Weekend
+from Tasks) as c
