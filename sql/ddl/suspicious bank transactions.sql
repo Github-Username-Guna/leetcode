@@ -2,9 +2,9 @@
 ---There is a max monthly income for bank
 --- Find the customer who exceeds the max amount for two or more consecutive months
 
-CREATE TYPE type_person AS ENUM ('Creditor', 'Debtor');
-Create table If Not Exists Accounts (account_id int, max_income int);
-Create table If Not Exists Transactions (transaction_id int, account_id int, type_pro type_person, amount int, day timestamp);
+--CREATE TYPE type_person AS ENUM ('Creditor', 'Debtor');
+Create table  Accounts (account_id int, max_income int);
+Create table  Transactions (transaction_id int, account_id int,  type_pro nvarchar(8), amount int, day datetime);
 
 insert into Accounts (account_id, max_income) values ('3', '21000');
 insert into Accounts (account_id, max_income) values ('4', '10400');
