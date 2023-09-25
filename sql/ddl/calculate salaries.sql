@@ -1,3 +1,8 @@
+-- calculate salaries after tax , where tax rates are below
+-- tax is 0% salary < 1000
+-- tax is 24% 1000<salary>10000
+-- tax is 49% salary >10000
+
 CREATE TABLE Salaries
 ( companyid INT NOT NULL
 , empid INT NOT NULL
