@@ -1,3 +1,6 @@
+--- Find out the tasks in weekdays and weekend count as two columns
+----ex- weekdaycount ,weekendcount
+
 CREATE TABLE Tasks
 ( taskid INT NOT NULL
 , assignee_id INT NOT NULL
