@@ -1,3 +1,5 @@
+--Strong & steady friendship if both the friends has more than 3 common friends
+
 Create table If Not Exists Friendship (user1_id int, user2_id int);
 
 insert into Friendship (user1_id, user2_id) values ('1', '2');
