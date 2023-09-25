@@ -1,3 +1,4 @@
+--Need customers who spending amount is increased for every order
 CREATE TABLE Orders
 ( Orderid INT NOT NULL
 , Customerid INT NOT NULL
