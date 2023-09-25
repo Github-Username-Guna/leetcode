@@ -1,4 +1,4 @@
-
+---Find products that the users bought frequently
 CREATE TABLE Sales
 ( saleid INT NOT NULL
 , productid INT NOT NULL
