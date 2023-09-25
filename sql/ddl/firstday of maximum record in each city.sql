@@ -1,3 +1,4 @@
+--First day of city which has recorded higest temp
 CREATE TABLE Weather
 ( cityid INT NOT NULL
 , degree INT NOT NULL
