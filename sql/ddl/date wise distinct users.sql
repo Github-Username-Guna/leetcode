@@ -1,3 +1,6 @@
+-- Find the distinct  new users on daily basis 
+-- ex:on 2022-02-22, 3 is only distinct new user because 1 is not a new user
+
 create table user_activity(
   date date,user_id int);
 
