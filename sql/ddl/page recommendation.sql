@@ -1,4 +1,4 @@
-
+--Recomend a Page to a person if a mutual friends has liked that page
 CREATE TABLE Friends
 ( userid1 INT NOT NULL
 , userid2 INT NOT NULL
