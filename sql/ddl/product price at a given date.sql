@@ -1,4 +1,4 @@
----Find the Price of all the products on a specified date , all the inital prices of the product is 10
+---Find the Price of all the products on a specified date , If the price of product before selected date is not there , set products price as 10
 ---ex - the price of products on 2019-08-16 is
 --productid  price
 --2          50
